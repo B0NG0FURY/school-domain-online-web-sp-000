@@ -13,5 +13,6 @@ class School
     else
       self.roster[grade] = []
       self.roster[grade] << student
+    end
   end
 end
