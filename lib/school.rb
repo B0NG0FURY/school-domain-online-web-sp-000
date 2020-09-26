@@ -25,5 +25,5 @@ class School
       list = list.sort
     end
   self.roster
-end
+  end
 end
