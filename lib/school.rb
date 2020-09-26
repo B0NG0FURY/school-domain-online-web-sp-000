@@ -15,4 +15,6 @@ class School
       self.roster[grade] << student
     end
   end
+  
+  
 end
