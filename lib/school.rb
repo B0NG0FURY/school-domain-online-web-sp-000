@@ -26,3 +26,4 @@ class School
     end
   self.roster
 end
+end
