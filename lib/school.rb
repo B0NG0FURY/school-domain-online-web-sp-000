@@ -8,7 +8,7 @@ class School
   end
   
   def add_student(student, grade)
-    if self.roster[grade].length >= 1
+    if self.roster[grade][student].length >= 1
       self.roster[grade] << student
     else
       self.roster[grade] = []
