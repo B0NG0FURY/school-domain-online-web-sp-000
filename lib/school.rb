@@ -8,7 +8,7 @@ class School
   end
   
   def add_student(student, grade)
-    if self.roster[grade][student].length >= 1
+    if self.roster.has_key
       self.roster[grade] << student
     else
       self.roster[grade] = []
